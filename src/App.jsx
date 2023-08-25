@@ -5,6 +5,7 @@ import Stats from './components/Stats'
 import Growth from './components/Growth'
 import Testimonials from './components/Testimonials'
 import FAQs from './components/FAQs'
+import Blog from './components/Blog'
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
      <Growth/>
      <Testimonials/>
      <FAQs/>
+     <Blog/>
     </div>
   )
 }

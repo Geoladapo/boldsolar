@@ -48,3 +48,33 @@ export const services = [
       position:"Team Lead"
     },
   ];
+
+export  const blogPost = [
+    {
+      id: 1,
+      category: 'Technology',
+      date: 'November 22, 2021',
+      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985542/boldo/Ellipse_10_2_jnxvfu.png',
+      name: 'Chandler Bing',
+      description: 'Pitch termsheet backing validation focus release.',
+      mainImage:"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985488/boldo/Rectangle_1270_3_az9i7j.png",
+    },
+    {
+      id: 2,
+      category: 'Health',
+      date: 'November 22, 2021',
+      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985507/boldo/Ellipse_10_nszzwl.png',
+      name: 'Rachel Green',
+      description: 'Seed round direct mailing non-disclosure agreement graphical user interface rockstar.',
+      mainImage:"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985504/boldo/Rectangle_1270_4_rmwvge.png",
+    },
+    {
+      id: 3,
+      category: 'Business',
+      date: 'November 22, 2021',
+      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985508/boldo/Ellipse_10_1_cwq0av.png',
+      name: 'Monica Geller',
+      description: 'Beta prototype sales iPad gen-z marketing network effects value proposition',
+      mainImage:"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985506/boldo/Rectangle_1270_5_lpidvs.png",
+    },
+  ];
