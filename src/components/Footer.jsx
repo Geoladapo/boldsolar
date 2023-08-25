@@ -1,7 +1,7 @@
 
 
 const Footer = () => {
-    return <div className="flex flex-row gap-36 mb-10 justify-evenly mx-20 mr-48 py-20 ">
+    return <footer className="flex flex-row gap-36 mb-10 justify-evenly mx-20 mr-48 py-20 ">
         <div className=" flex  gap-16 font-openSans flex-col text-[#777777]">
             <div className="flex gap-10 flex-col">
                 <img className="w-40" src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692996001/boldo/Logo_4_xym5el.png" />
@@ -33,7 +33,7 @@ const Footer = () => {
                 <li>Services</li>
             </ul>
         </div>
-    </div>;
+    </footer>;
 };
 
 export default Footer;

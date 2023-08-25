@@ -30,7 +30,7 @@ const Blog = () => {
             <button className="border-[#0A2640] text-[#0A2640] border-2 bg-white py-4 px-14 font-bold
              text-xl rounded-full">
                 Load more
-                </button>
+            </button>
         </div>
     </div>;
 };

@@ -3,11 +3,11 @@ import { feedBack } from "../MockData/data";
 const Testimonials = () => {
     return <div className="bg-[#0A2640] relative h-full px-32 py-20">
         <div className="flex items-center  mb-14 ">
-        <h2 className="text-5xl font-manrope pr-[230px] text-start leading-[76px] w-fit text-white">An enterprise template to ramp up your company website</h2>
-        <div className="flex items-center justify-end pt-16 gap-5 m-2">
-            <img className="bg-white p-3 w-16 rounded-full flex items-center justify-center" src={"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692975819/boldo/arrow-right_1_bvkj1v.png"} />
-            <img className="bg-white p-3 w-16 rounded-full flex items-center justify-center" src={"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692979596/boldo/arrow-right_3_mubj0t.png"} />
-        </div>
+            <h2 className="text-5xl font-manrope pr-[230px] text-start leading-[76px] w-fit text-white">An enterprise template to ramp up your company website</h2>
+            <div className="flex items-center justify-end pt-16 gap-5 m-2">
+                <img className="bg-white p-3 w-16 rounded-full flex items-center justify-center" src={"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692975819/boldo/arrow-right_1_bvkj1v.png"} />
+                <img className="bg-white p-3 w-16 rounded-full flex items-center justify-center" src={"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692979596/boldo/arrow-right_3_mubj0t.png"} />
+            </div>
         </div>
 
         <div className="flex gap-5">

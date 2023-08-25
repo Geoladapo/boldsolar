@@ -1,6 +1,6 @@
 
 const NavBar = () => {
-    return <div className="flex justify-between items-center py-10 mx-20">
+    return <header className="flex justify-between items-center py-10 mx-20">
         <div>
             <img className="w-40" src={"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692882879/boldo/Logo_1_isvimz.png"} alt="Boldo Logo" />
         </div>
@@ -10,7 +10,7 @@ const NavBar = () => {
             <p className="cursor-pointer">About</p>
             <button className="bg-white font-bold text-[#0A2640] rounded-3xl px-9 py-2 mr-5">Log In</button>
         </div>
-    </div>;
+    </header>;
 };
 
 export default NavBar;
