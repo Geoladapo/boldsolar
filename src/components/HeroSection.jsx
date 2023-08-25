@@ -14,7 +14,8 @@ const HeroSection = () => {
                     </div>
                     <div className="flex justify-start items-center ml-32 gap-5 w-full font-openSans">
                         <button className="bg-[#69E6A6] text-[#0A2640] py-4 px-14 font-bold text-xl rounded-full">Buy template</button>
-                        <button className="bg-[#0A2640] text-white border-2 border-white py-4 px-14 font-bold text-xl rounded-full">Explore</button>
+                        <button className="bg-[#0A2640] text-white border-2 border-white py-4 px-14 font-bold text-xl rounded-full
+                            hover:text-[#0A2640] hover:bg-white duration-300 ease-linear">Explore</button>
                     </div>
                 </div>
                 <div className="flex-1 flex items-center justify-center">
