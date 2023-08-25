@@ -4,7 +4,7 @@ const NavBar = () => {
         <div>
             <img className="w-40" src={"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692882879/boldo/Logo_1_isvimz.png"} alt="Boldo Logo" />
         </div>
-        <div className="text-white flex justify-center text-base items-center font-openSans gap-10">
+        <div className="text-white  z-20  flex justify-center text-base items-center font-openSans gap-10">
             <p className="cursor-pointer">Products</p>
             <p className="cursor-pointer">Services</p>
             <p className="cursor-pointer">About</p>
