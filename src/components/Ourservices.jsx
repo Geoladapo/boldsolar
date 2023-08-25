@@ -20,9 +20,9 @@ const Ourservices = () => {
                             <h4 className='text-2xl text-st'>{card.title}</h4>
                             <p className='text-xl pr-20 text-star text-[#777777]'>{card.description}</p>
                             <button className='flex justify-center items-center text-xl font-bold text-[#0A2640] border-[#0A2640] border-b-[1px] pb-3'
-                             onClick={card.buttonLink}>
-                                Explore page <span className='pl-3'><img className='w-6' src={Arrow}/></span>
-                             </button>
+                                onClick={card.buttonLink}>
+                                Explore page <span className='pl-3'><img className='w-6' src={Arrow} /></span>
+                            </button>
                         </div>
 
                     </div>
