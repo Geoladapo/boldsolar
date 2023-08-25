@@ -3,7 +3,7 @@ import Arrow from "../assets/arrow-right.png"
 
 const Ourservices = () => {
 
-    return <div className="bg-white h-full py-20">
+    return <div className="bg-white h-full py-20 mb-12">
         <div className="flex flex-col items-center justify-center mb-20 ">
             <p className="font-openSans text-xl text-[#777777]">Our Services</p>
             <p className="font-manrope text-5xl leading-[72px] px-40 text-center">Handshake infographic mass market crowdfunding iteration.</p>
