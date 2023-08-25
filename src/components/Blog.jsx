@@ -1,16 +1,38 @@
+import { blogPost } from "../MockData/data";
 
 const Blog = () => {
-  return <div>
-    <div className="flex flex-col items-center justify-center">
-    <p className=" font-openSans text-[#777777]">Our Blog</p>
-    <h3 className=" font-manrope text-5xl">Value proposition accelerator product management venture</h3>
-    </div>
-    <div>
-<div>
-    
-</div>
-    </div>
-  </div>;
+    return <div className="px-32 h-full py-20">
+        <div className="flex flex-col gap-5 mb-20 items-center justify-center">
+            <p className=" font-openSans text-xl text-[#777777]">Our Blog</p>
+            <h3 className=" font-manrope text-center text-5xl">Value proposition accelerator product management venture</h3>
+        </div>
+        <div className="flex flex-col items-center justify-center gap-24">
+            <div className="flex gap-14 px-16">
+                {
+                    blogPost.map((card) => (
+                        <div className="flex flex-col gap-5 font-openSans" key={card.id}>
+                            <img src={card.mainImage} />
+                            <div className="flex flex-col h-full gap-5">
+                                <div className="flex gap-3">
+                                    <p className="font-bold text-[#0A2640] ">{card.category}</p>
+                                    <p className=" text-[#777777]">{card.date}</p>
+                                </div>
+                                <h5 className="text-xl leading-[32px] ">{card.description}</h5>
+                            </div>
+                            <div className="flex items-center gap-5 ">
+                                <img className="w-8" src={card.imgLink} />
+                                <p className="">{card.name}</p>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
+            <button className="border-[#0A2640] text-[#0A2640] border-2 bg-white py-4 px-14 font-bold
+             text-xl rounded-full">
+                Load more
+                </button>
+        </div>
+    </div>;
 };
 
 export default Blog;
