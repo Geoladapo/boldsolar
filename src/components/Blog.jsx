@@ -7,17 +7,17 @@ const Blog = () => {
             <h3 className=" font-manrope text-center text-5xl">Value proposition accelerator product management venture</h3>
         </div>
         <div className="flex flex-col items-center justify-center gap-24">
-            <div className="flex gap-14 px-16">
+            <div className="flex gap-12 px-10">
                 {
                     blogPost.map((card) => (
-                        <div className="flex flex-col gap-5 font-openSans" key={card.id}>
+                        <div className="flex flex-col  gap-5 font-openSans" key={card.id}>
                             <img src={card.mainImage} />
-                            <div className="flex flex-col h-full gap-5">
+                            <div className="flex flex-col  h-full gap-5">
                                 <div className="flex gap-3">
                                     <p className="font-bold text-[#0A2640] ">{card.category}</p>
                                     <p className=" text-[#777777]">{card.date}</p>
                                 </div>
-                                <h5 className="text-xl leading-[32px] ">{card.description}</h5>
+                                <h5 className="text-xl   leading-[32px] ">{card.description}</h5>
                             </div>
                             <div className="flex items-center gap-5 ">
                                 <img className="w-8" src={card.imgLink} />

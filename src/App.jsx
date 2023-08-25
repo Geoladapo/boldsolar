@@ -6,6 +6,8 @@ import Growth from './components/Growth'
 import Testimonials from './components/Testimonials'
 import FAQs from './components/FAQs'
 import Blog from './components/Blog'
+import Newsletter from './components/Newsletter'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
      <Testimonials/>
      <FAQs/>
      <Blog/>
+     <Newsletter/>
+     <Footer/>
     </div>
   )
 }
