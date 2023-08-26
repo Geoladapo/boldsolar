@@ -33,7 +33,7 @@ const Footer = () => {
                 <li>Services</li>
             </ul>
         </div>
-    </div>;
+    </footer>;
 };
 
 export default Footer;

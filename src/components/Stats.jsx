@@ -2,7 +2,7 @@ import tick from "../assets/Group 210.png"
 const Stats = () => {
   return <div className="flex justify-center flex-col lg:flex-row items-center gap-16 lg:gap-32 py-10 mx-10 lg:mx-32">
     <div className="">
-    <img className="w-[70rem]" src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692918393/boldo/Group_216_qo43ri.png" alt="man" />
+      <img className="w-[70rem]" src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692918393/boldo/Group_216_qo43ri.png" alt="man" />
     </div>
     <div className=" flex flex-col items-center lg:items-start gap-14 lg:gap-10 ">
         <h2 className=" font-manrope text-3xl leading-8 lg:text-4xl lg:leading-[56px]">We connect our customers with the best, and help them keep up-and stay open.</h2>
