@@ -2,7 +2,7 @@ import NavBar from "./NavBar";
 
 
 const HeroSection = () => {
-    return <div className="relative overflow-clip md:h-full h-screen bg-[#0A2640]">
+    return <main className="relative overflow-clip md:h-full h-screen bg-[#0A2640]">
         <img className="absolute w-[777px] h-[523px] z-0 top-[-0rem] right-[-10rem]" src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692999087/boldo/Ellipse_9_1_vvhdas.png" />
         <NavBar />
         <div className="flex flex-col md:gap-20  gap-12 ">

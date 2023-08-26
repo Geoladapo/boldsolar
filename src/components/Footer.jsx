@@ -1,7 +1,7 @@
 
 
 const Footer = () => {
-    return <div className="flex flex-col-reverse lg:flex-row  gap-12 lg:gap-36 mb-10 justify-evenly mx-10 lg:mx-20 lg:mr-48 py-20 ">
+    return <footer className="flex flex-col-reverse lg:flex-row  gap-12 lg:gap-36 mb-10 justify-evenly mx-10 lg:mx-20 lg:mr-48 py-20 ">
         <div className=" flex gap-9 lg:gap-16 font-openSans flex-col text-[#777777]">
             <div className="flex gap-10 flex-col">
                 <img className="w-40" src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692996001/boldo/Logo_4_xym5el.png" />
