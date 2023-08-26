@@ -1,13 +1,13 @@
 import { blogPost } from "../MockData/data";
 
 const Blog = () => {
-    return <div className="px-32 h-full py-20">
+    return <div className="lg:px-32 px-10 h-full py-20">
         <div className="flex flex-col gap-5 mb-20 items-center justify-center">
             <p className=" font-openSans text-xl text-[#777777]">Our Blog</p>
-            <h3 className=" font-manrope text-center text-5xl">Value proposition accelerator product management venture</h3>
+            <h3 className=" font-manrope text-center text-3xl lg:text-5xl">Value proposition accelerator product management venture</h3>
         </div>
         <div className="flex flex-col items-center justify-center gap-24">
-            <div className="flex gap-12 px-10">
+            <div className="flex flex-col lg:flex-row gap-12 px-10">
                 {
                     blogPost.map((card) => (
                         <div className="flex flex-col  gap-5 font-openSans" key={card.id}>
@@ -27,7 +27,7 @@ const Blog = () => {
                     ))
                 }
             </div>
-            <button className="border-[#0A2640] text-[#0A2640] border-2 bg-white py-4 px-14 font-bold
+            <button className="border-[#0A2640] text-[#0A2640] border-2 bg-white py-4 px-10 lg:px-14 font-bold
              text-xl rounded-full">
                 Load more
                 </button>
