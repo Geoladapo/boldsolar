@@ -13,7 +13,7 @@ const Testimonials = () => {
         <div className="flex flex-col px-10 lg:flex-row gap-10 lg:gap-5">
             {
                 feedBack.map((card) => (
-                    <div className='flex flex-col gap-10 items-start w-full h-fit bg-white p-10 rounded-xl drop-shadow-md ' key={card.id}>
+                    <div className='flex flex-col gap-10 items-start md:w-fit w-full h-fit bg-white p-10 rounded-xl drop-shadow-md ' key={card.id}>
                         <div>
                             <p className="font-openSans text-2xl leading-[36px] text-[#000000]">
                                 {card.description}

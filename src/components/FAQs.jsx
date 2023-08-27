@@ -1,7 +1,7 @@
 const FAQs = () => {
     return <div className="flex flex-col px-10 lg:px-32 py-28 ">
         <div>
-            <img className="h-[10rem] " src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692979787/boldo/Image_2_pu57mo.png" />
+            <img className="  " src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692979787/boldo/Image_2_pu57mo.png" />
         </div>
         <div className="flex flex-col lg:flex-row mt-16 gap-20 ">
             <h2 className=" flex-1 font-manrope text-3xl lg:text-4xl leading-9 lg:leading-[56px] ">
