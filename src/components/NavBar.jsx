@@ -4,7 +4,7 @@ const NavBar = () => {
 
     const [navbar, setNavbar] = useState(false);
 
-    return <div className="flex justify-between items-start md:gap-10 md:items-center py-10 md:mx-10 lg::mx-20 mx-10">
+    return <div className="flex justify-between items-start  md:gap-10 md:items-center py-10 md:mx-10 lg:mx-20 mx-10">
         <div className="z-10">
             <img className="w-40" src={"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692882879/boldo/Logo_1_isvimz.png"} alt="Boldo Logo" />
         </div>
