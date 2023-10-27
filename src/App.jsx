@@ -1,29 +1,22 @@
-import './index.css'
-import HeroSection from './components/HeroSection'
-import Ourservices from './components/Ourservices'
-import Stats from './components/Stats'
-import Growth from './components/Growth'
-import Testimonials from './components/Testimonials'
-import FAQs from './components/FAQs'
-import Blog from './components/Blog'
-import Newsletter from './components/Newsletter'
-import Footer from './components/Footer'
+import { Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Login from './pages/login';
 
 function App() {
-
   return (
-    <div className=''>
-     <HeroSection/>
-     <Ourservices/>
-     <Stats/>
-     <Growth/>
-     <Testimonials/>
-     <FAQs/>
-     <Blog/>
-     <Newsletter/>
-     <Footer/>
+    <div className="">
+      <Routes>
+        <Route
+          path="/"
+          element={<Login />}
+        />
+        <Route
+          path="/Home"
+          element={<Home />}
+        />
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,80 +1,192 @@
 export const services = [
-    {
-      id: 1,
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692913506/boldo/Rectangle_1270_md2kvr.png',
-      title:"Cool feature title",
-      description: 'Learning curve network effects return on investment.',
-      buttonLink: '/'
-    },
-    {
-      id: 2,
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692913506/boldo/Rectangle_1270_1_jqa3vw.png',
-      title:"Even cooler feature",
-      description: 'Learning curve network effects return on investment.',
-      buttonLink: '/'
-    },
-    {
-      id: 3,
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692913506/boldo/Rectangle_1270_2_ao3pmw.png',
-      title:"Cool feature title",
-      description: 'Learning curve network effects return on investment.',
-      buttonLink: '/'
-    },
-  ];
+  {
+    id: 1,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698416157/undraw_agreement_re_d4dv_ire0nm.svg',
+    title: 'Cool feature title',
+    description: [
+      'Learning curve network effects .',
+      'Learning curve network effects',
+      'Learning curve network effects',
+      'Learning curve network effects',
+    ],
+  },
+  {
+    id: 2,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698416157/undraw_factory_dy-0-a_ovlmxq.svg',
+    title: 'Even cooler feature',
+    description: [
+      'Learning curve network effects .',
+      'Learning curve network effects',
+      'Learning curve network effects',
+      'Learning curve network effects',
+    ],
+  },
+  {
+    id: 3,
+    imgLink:
+      ' https://res.cloudinary.com/dhvwthnzq/image/upload/v1692913506/boldo/Rectangle_1270_1_jqa3vw.png',
+    title: 'Cool feature title',
+    description: [
+      'Learning curve network effects .',
+      'Learning curve network effects',
+      'Learning curve network effects',
+      'Learning curve network effects',
+    ],
+  },
+];
 
-  export const feedBack = [
-    {
-      id: 1,
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692976869/boldo/Ellipse_4_qrshml.png',
-      name:"Albus Dumbledore",
-      description: '“Buyer buzz partner network disruptive non-disclosure agreement business”',
-      company: 'Hogwarts',
-      position:"Manager"
-    },
-    {
-      id: 2,
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692976872/boldo/Ellipse_4_1_opp4nv.png',
-      name:"Severus Snape",
-      description: '“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”',
-      company: 'Slytherin',
-      position:"Manager"
-    },
-    {
-      id: 3,
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692976881/boldo/Ellipse_4_2_fptiu8.png',
-      name:"Harry Potter",
-      description: '“Release facebook responsive web design business model canvas seed money monetization.”',
-      company: 'Hogwarts',
-      position:"Team Lead"
-    },
-  ];
+export const feedBack = [
+  {
+    id: 1,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377120/pexels-tom-fisk-9893729_gx8a3i.jpg',
+    name: 'Albus Dumbledore',
+    description:
+      '“Buyer buzz partner network disruptive non-disclosure agreement business”',
+    company: 'Projects',
+  },
+  {
+    id: 2,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377079/pexels-kindel-media-9875441_xysxic.jpg',
+    name: 'Severus Snape',
+    description:
+      '“Learning curve infrastructure value proposition advisor strategy user experience hypotheses investor.”',
+    company: 'Projects',
+  },
+  {
+    id: 3,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 4,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377135/pexels-mark-stebnicki-15751130_kdrzwp.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 5,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377012/pexels-ki-media-9799757_tgiwyc.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 6,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1697731903/anders-j-hxUcl0nUsIY-unsplash_dspcsz.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 7,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 8,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696376468/ttt_qvgktz.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 9,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696376468/istockphoto_g3fsvj.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 10,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696376467/istockgg_cpzcbu.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 3,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 3,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 3,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+  {
+    id: 3,
+    imgLink:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+    name: 'Harry Potter',
+    description:
+      '“Release facebook responsive web design business model canvas seed money monetization.”',
+    company: 'Projects',
+  },
+];
 
-export  const blogPost = [
-    {
-      id: 1,
-      category: 'Technology',
-      date: 'November 22, 2021',
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985542/boldo/Ellipse_10_2_jnxvfu.png',
-      name: 'Chandler Bing',
-      description: 'Pitch termsheet backing validation focus release.',
-      mainImage:"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985488/boldo/Rectangle_1270_3_az9i7j.png",
-    },
-    {
-      id: 2,
-      category: 'Health',
-      date: 'November 22, 2021',
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985507/boldo/Ellipse_10_nszzwl.png',
-      name: 'Rachel Green',
-      description: 'Seed round direct mailing non-disclosure agreement graphical user interface rockstar.',
-      mainImage:"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985504/boldo/Rectangle_1270_4_rmwvge.png",
-    },
-    {
-      id: 3,
-      category: 'Business',
-      date: 'November 22, 2021',
-      imgLink: 'https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985508/boldo/Ellipse_10_1_cwq0av.png',
-      name: 'Monica Geller',
-      description: 'Beta prototype sales iPad gen-z marketing network effects value proposition',
-      mainImage:"https://res.cloudinary.com/dhvwthnzq/image/upload/v1692985506/boldo/Rectangle_1270_5_lpidvs.png",
-    },
-  ];
+export const blogPost = [
+  {
+    id: 1,
+
+    name: 'Chandler Bing',
+    description: 'Pitch termsheet backing validation focus release.',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js2_pgqe2t.jpg',
+  },
+  {
+    id: 2,
+
+    description: 'Seed round direct mailing non-disclosure agreement .',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414947/troy-bridges-kXC6XhVL1e4-unsplash_feojqf.jpg',
+  },
+  {
+    id: 3,
+
+    description: 'Beta prototype sales iPad gen-z marketing network ',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js1_sambkp.jpg',
+  },
+];
