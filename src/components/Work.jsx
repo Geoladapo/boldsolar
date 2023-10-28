@@ -1,4 +1,5 @@
 import data from '../MockData/data';
+import { motion } from 'framer-motion';
 
 const Work = () => {
   // projects file
@@ -19,7 +20,12 @@ const Work = () => {
         </div>
 
         {/* container for projects */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+        <motion.div
+          initial={{ opacity: 0, y: 200 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4"
+        >
           {/* Gird Item */}
           {data.map((item, index) => (
             <div
@@ -34,7 +40,7 @@ const Work = () => {
               />
             </div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </div>
   );

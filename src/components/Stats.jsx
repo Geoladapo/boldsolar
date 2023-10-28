@@ -4,7 +4,7 @@ const Stats = () => {
     <div className="flex justify-center flex-col lg:flex-row items-center gap-16 lg:gap-32 py-10 mx-10 lg:mx-32">
       <div className="">
         <img
-          className=" lg:w-[80rem] h-[30rem] w-[40rem]"
+          className=" lg:w-[90rem] h-[30rem] lg-[200px] w-[40rem] rounded"
           src="https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js2_pgqe2t.jpg"
           alt="man"
         />
@@ -21,7 +21,7 @@ const Stats = () => {
               className="lg:w-9 mt-2 w-6 mr-6"
               src={tick}
             />{' '}
-            We Provde the best Service Solution.
+            We Provide the best Service Solution.
           </li>
           <li className="flex lg:items-center items-start">
             <img

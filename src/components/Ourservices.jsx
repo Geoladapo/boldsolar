@@ -29,7 +29,7 @@ const Ourservices = () => {
           >
             <div className="flex items-center lg:justify-center md:justify-start justify-center ">
               <img
-                className="w-[18rem]"
+                className="w-[18rem] "
                 src={card.imgLink}
               />
             </div>

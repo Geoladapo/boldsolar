@@ -1,6 +1,10 @@
+import { motion } from 'framer-motion';
 const Growth = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, y: 200 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.5 }}
       id="AboutUs"
       className="flex justify-center flex-col lg:flex-row items-center mt-14 lg:mt-0 gap-32 py-10  mx-10 lg:mx-32"
     >
@@ -35,7 +39,7 @@ const Growth = () => {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -173,24 +173,48 @@ export const blogPost = [
   {
     id: 1,
 
-    name: 'Chandler Bing',
-    description: 'Pitch termsheet backing validation focus release.',
+    name: '',
+    description: '',
     mainImage:
-      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js2_pgqe2t.jpg',
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698485974/mb2_dnw9nb.jpg',
   },
   {
     id: 2,
 
-    description: 'Seed round direct mailing non-disclosure agreement .',
+    description: '',
     mainImage:
-      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414947/troy-bridges-kXC6XhVL1e4-unsplash_feojqf.jpg',
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698485974/Mb3_ogodtl.jpg',
   },
   {
     id: 3,
 
-    description: 'Beta prototype sales iPad gen-z marketing network ',
+    description: '',
     mainImage:
-      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js1_sambkp.jpg',
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698485974/Mb1_jmpvvq.jpg',
+  },
+];
+export const blogPost3 = [
+  {
+    id: 1,
+
+    name: '',
+    description: 'In partner Solantra Group',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698485974/p2_w7ftfm.jpg',
+  },
+  {
+    id: 2,
+
+    description: 'In partner Solantra Group',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698485974/P1_eep8jv.jpg',
+  },
+  {
+    id: 3,
+
+    description: 'Thank you Solantra',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698485974/P3_dty8lk.jpg',
   },
 ];
 
@@ -233,3 +257,28 @@ const data = [
   },
 ];
 export default data;
+
+export const blogPost2 = [
+  {
+    id: 1,
+
+    name: '',
+    description: 'Home Solar',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js2_pgqe2t.jpg',
+  },
+  {
+    id: 2,
+
+    description: 'Electrical checkup',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414947/troy-bridges-kXC6XhVL1e4-unsplash_feojqf.jpg',
+  },
+  {
+    id: 3,
+
+    description: 'Solar Panels ',
+    mainImage:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js1_sambkp.jpg',
+  },
+];
