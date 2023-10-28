@@ -6,7 +6,7 @@ const Growth = () => {
     >
       <div className="w-[100%] ">
         <h1 className=" mt-5 text-4xl font-bold text-center mb-9">About</h1>{' '}
-        <div className="w-[100%] flex-col lg:flex mx-[auto] my-0 gap-20 justify-between items-center ">
+        <div className="w-[100%] flex-col flex lg:flex-row mx-[auto] my-0 gap-20 justify-between items-center ">
           <div className="flex-1">
             {' '}
             <img

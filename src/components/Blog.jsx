@@ -4,7 +4,7 @@ const Blog = () => {
   return (
     <div className="lg:px-32 px-10 h-full py-20">
       <div className="flex flex-col gap-5 mb-20 items-center justify-center">
-        <p className=" font-openSans text-xl text-[#777777]">Our Blog</p>
+        <p className=" font-openSans font-bold text-3xl text-black">Our Blog</p>
         <h3 className=" font-manrope text-center text-3xl lg:text-5xl">
           Value proposition accelerator product management venture
         </h3>

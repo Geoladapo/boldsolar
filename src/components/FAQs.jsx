@@ -9,13 +9,14 @@ const FAQs = () => {
       </div>
       <div className="flex flex-col lg:flex-row mt-16 gap-20 ">
         <h2 className=" flex-1 font-manrope text-3xl lg:text-4xl leading-9 lg:leading-[56px] ">
-          We connect our customers with the best, and help them keep up-and stay
-          open.
+          Planning to move? We can safely remove your solar panels and reinstall
+          them at your new location, ensuring your solar investment continues to
+          benefit you.
         </h2>
         <div className="flex-1 flex flex-col gap-10">
           <div>
             <span className="  flex items-center justify-between font-openSans mb-4 text-lg lg:text-xl">
-              We connect our customers with the best?
+              Enjoy the benefits of clean, reliable, and sustainable energy.
               <img
                 className="w-7 mb-5 lg:mb-0 ml-5 lg:ml-0"
                 src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692979789/boldo/Group_210_1_d7bry6.png"
@@ -25,7 +26,7 @@ const FAQs = () => {
           </div>
           <div>
             <span className=" flex items-center justify-between font-openSans mb-5 text-lg lg:text-xl">
-              Android research & development rockstar?
+              Professional service for all project
               <img
                 className="w-7 mb-5 lg:mb-0 ml-5 lg:ml-0"
                 src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692979789/boldo/Group_210_1_d7bry6.png"
