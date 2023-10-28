@@ -20,8 +20,8 @@ const Dropdown = () => {
   }
 
   return (
-    <div>
-      <div className=" w-fit  bg-slate-100 flex gap-5 flex-col items-center justify-center px-6 lg:px1 lg:p-10 rounded">
+    <div className="relative">
+      <div className=" w-fit absolute z-0 top-[-05rem] right-[-01rem] bg-slate-100 flex gap-5 flex-col items-center justify-center px-6 lg:px1 lg:p-10 rounded">
         <h1 className="text-center text-[30px] mt-3 font-semibold   mb-2">
           Admin/staff Login
         </h1>

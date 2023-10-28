@@ -9,9 +9,12 @@ const Ourservices = () => {
       className="bg-white h-full py-20 mb-12"
     >
       <div className="flex flex-col items-center gap-5 lg:gap-1 justify-center mb-20 ">
-        <p className="font-openSans text-xl  text-[#777777]">Our Services</p>
+        <p className="font-openSans text-3xl font-bold  text-black">
+          Our Services
+        </p>
         <p className="font-manrope text-[28px] leading-7 lg:text-5xl  lg:leading-[72px] px-[23px] lg:px-40 text-center">
-          Handshake infographic mass market crowdfunding iteration.
+          <strong> Empowering Your Energy Future:</strong> Our Solar Panel
+          Engineering Expertise.
         </p>
       </div>
       <motion.div

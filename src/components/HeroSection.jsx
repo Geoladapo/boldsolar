@@ -6,11 +6,11 @@ const HeroSection = () => {
   return (
     <main
       id="Hero"
-      className="relative overflow-clip md:h-full h-screen bg-[#0A2640]"
+      className="relative overflow-clip md:h-full h-screen bg-green-400"
     >
       <img
-        className="absolute w-[777px] h-[523px] z-0 top-[-0rem] right-[-10rem]"
-        src="https://res.cloudinary.com/dhvwthnzq/image/upload/v1692999087/boldo/Ellipse_9_1_vvhdas.png"
+        className="absolute   w-[400px] h-[400px] z-0 top-[-05rem] right-[-13rem] rounded-full "
+        src="https://res.cloudinary.com/dutvrzezk/image/upload/v1698445480/gg_idyrlu.png"
       />
       <NavBar />
       <div className="flex flex-col md:gap-20  gap-12 ">
@@ -23,26 +23,27 @@ const HeroSection = () => {
           >
             <div className="text-white w-full px-10 md:px-16">
               <h2 className="font-manrope text-4xl leading-[59px] md:text-5xl md:leading-[72px] mb-8 md:mb-5">
-                Save time by building fast with Boldo Template{' '}
+                Energy Generated From Natural Resources
               </h2>
               <p className="text-base font-normal font-openSans  leading-8 md:leading-7">
-                Funding handshake buyer business-to-business metrics iPad
-                partnership.
+                Solar power: because the best things in life end up being free.
                 <br />
-                First mover advantage innovator success deployment
-                non-disclosure.
+                Solar power stands as a beacon of hope in our pursuit of clean,
+                sustainable energy.
               </p>
             </div>
             <div className="flex justify-start items-start md:items-center ml-12 md:ml-32 gap-5 w-full font-openSans">
               <button className="bg-[#69E6A6] text-[#0A2640] py-3 md:py-4  px-8 md:px-14 font-bold text-md md:text-xl rounded-full">
-                Buy template
+                InfluxSolarInc
               </button>
-              <button
-                className="bg-[#0A2640] text-white md:border-2 border-[1px] border-white py-3 md:py-4  px-8 md:px-14 font-bold text-md md:text-xl rounded-full
-                            hover:text-[#0A2640] hover:bg-white duration-300 ease-linear"
-              >
-                Explore
-              </button>
+              <a href='#Contact'>
+                <button
+                  className="bg-[#0A2640] text-white md:border-2 border-[1px] border-white py-3 md:py-4  px-8 md:px-14 font-bold text-md md:text-xl rounded-full
+                         hover:text-[#0A2640] hover:bg-white duration-300 ease-linear"
+                >
+                  ContactUs
+                </button>
+              </a>
             </div>
           </motion.div>
           <motion.div className="flex-1 z-10 hidden md:flex items-center justify-center">

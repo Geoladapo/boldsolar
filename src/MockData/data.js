@@ -2,37 +2,40 @@ export const services = [
   {
     id: 1,
     imgLink:
-      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698416157/undraw_agreement_re_d4dv_ire0nm.svg',
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698448448/biel-morro-HCha-UHkIg8-unsplash_xtrbcm.jpg',
     title: 'Cool feature title',
     description: [
-      'Learning curve network effects .',
-      'Learning curve network effects',
-      'Learning curve network effects',
-      'Learning curve network effects',
+      ' Project management .',
+      'Site Assessment',
+      'Solar Panel Removal and Reinstallation',
+      'System Design',
+      'solar panel Remover',
     ],
   },
   {
     id: 2,
     imgLink:
-      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698416157/undraw_factory_dy-0-a_ovlmxq.svg',
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698448448/american-public-power-association-eIBTh5DXW9w-unsplash_v3fwqa.jpg',
     title: 'Even cooler feature',
     description: [
-      'Learning curve network effects .',
-      'Learning curve network effects',
-      'Learning curve network effects',
-      'Learning curve network effects',
+      'Off-Grid Solution',
+      ' Renewable Energy Solutions',
+      'Repairs',
+      'Customer Support',
+      'Regulatory Compliance',
     ],
   },
   {
     id: 3,
     imgLink:
-      ' https://res.cloudinary.com/dhvwthnzq/image/upload/v1692913506/boldo/Rectangle_1270_1_jqa3vw.png',
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1698448448/jason-blackeye-pJjj-XVA7Hg-unsplash_chyrqo.jpg',
     title: 'Cool feature title',
     description: [
-      'Learning curve network effects .',
-      'Learning curve network effects',
-      'Learning curve network effects',
-      'Learning curve network effects',
+      'Energy Solutions .',
+      '  Solar Maintenance',
+      'Component Replacement',
+      'Energy Efficiency Consulting',
+      'maintainance Service',
     ],
   },
 ];
@@ -41,7 +44,7 @@ export const feedBack = [
   {
     id: 1,
     imgLink:
-      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377120/pexels-tom-fisk-9893729_gx8a3i.jpg',
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377079/pexels-kindel-media-9875441_xysxic.jpg',
     name: 'Albus Dumbledore',
     description:
       '“Buyer buzz partner network disruptive non-disclosure agreement business”',
@@ -190,3 +193,43 @@ export const blogPost = [
       'https://res.cloudinary.com/dutvrzezk/image/upload/v1698414943/js1_sambkp.jpg',
   },
 ];
+
+const data = [
+  {
+    id: 1,
+
+    image:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+  },
+  {
+    id: 2,
+
+    image:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696376569/pexels-kindel-media-9875684_ze7vir.jpg',
+  },
+  {
+    id: 3,
+
+    image:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696376468/ttt_qvgktz.jpg',
+  },
+  {
+    id: 4,
+
+    image:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696376467/istockgg_cpzcbu.jpg',
+  },
+  {
+    id: 5,
+
+    image:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377035/pexels-pibay-159160_t7sepa.jpg',
+  },
+  {
+    id: 6,
+
+    image:
+      'https://res.cloudinary.com/dutvrzezk/image/upload/v1696377079/pexels-kindel-media-9875441_xysxic.jpg',
+  },
+];
+export default data;

@@ -1,6 +1,9 @@
 const Newsletter = () => {
   return (
-    <div className="py-20  px-5 lg:px-20">
+    <div
+      id="Contact"
+      className="py-20  px-5 lg:px-20"
+    >
       <div className="relative bg-[#0A2640] rounded-xl overflow-clip px-1 lg:px-48 py-8 lg:py-20 gap-10 flex flex-col items-center justify-center">
         <img
           className="absolute  w-[800px] top-[-0rem] right-[-3rem] "

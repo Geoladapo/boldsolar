@@ -56,8 +56,8 @@ const NavBar = () => {
         <div
           className={` relative ${
             navbar ? 'flex' : 'hidden'
-          } text-white border-indigo-800 items-start bg-[#0A2640]  md:w-full w-screen px-10 py-10 
-            md:py-0 md:px-0 p-5 md:bg-transparent absolute top-12 right-[-2.5rem]  md:static flex-col md:flex-row  
+          } text-white border-indigo-800 items-start bg-[#68D391]  md:w-full w-screen px-10 py-10 
+            md:py-0 md:px-0 p-5 md:bg-transparent absolute z-0 top-[-01rem] right-[-rem]  left-[-4rem] md:static flex-col md:flex-row  
             md:flex justify-center text-base md:items-center font-openSans gap-10`}
         >
           <div
@@ -99,6 +99,14 @@ const NavBar = () => {
               className="cursor-pointer"
             >
               Work
+            </p>
+          </a>
+          <a href="#Contact">
+            <p
+              onClick={() => setNavbar(!navbar)}
+              className="cursor-pointer"
+            >
+              Contact
             </p>
           </a>
           <button
