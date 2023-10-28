@@ -8,18 +8,18 @@ const Growth = () => {
       id="AboutUs"
       className="flex justify-center flex-col lg:flex-row items-center mt-14 lg:mt-0 gap-32 py-10  mx-10 lg:mx-32"
     >
-      <div className="w-[100%] ">
+      <div className="w-[100%] " id="AboutUs">
         <h1 className=" mt-5 text-4xl font-bold text-center mb-9">About</h1>{' '}
-        <div className="w-[100%] flex-col flex lg:flex-row mx-[auto] my-0 gap-20 justify-between items-center ">
-          <div className="flex-1">
+        <div className="lg:w-[80%] flex flex-col mx-auto my-10 gap-10 items-center  lg:flex-row lg:justify-center">
+          <div className="lg:w-[100%] ">
             {' '}
             <img
-              className="w-[300px] "
+              className="lg:w-[500px] md:w-[300px]"
               src="https://res.cloudinary.com/dutvrzezk/image/upload/v1698375724/Mic_w2us4b.jpg"
               alt="Michael"
             />
           </div>
-          <div className="  gap-14 lg:gap-10 flex-1 ">
+          <div className="lg:w-[100%] lg:text-xl text-sm">
             <h1 className="mt-8">
               I am Michael Robert, the CEO of influxsolarinc. With a profound
               dedication to clean energy, I've devoted my career to advancing

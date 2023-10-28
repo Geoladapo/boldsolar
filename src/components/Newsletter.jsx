@@ -1,9 +1,6 @@
 const Newsletter = () => {
   return (
-    <div
-      id="Contact"
-      className="py-20  px-5 lg:px-20"
-    >
+    <div id="Contact" className="py-20  px-5 lg:px-20">
       <div className="relative bg-[#0A2640] rounded-xl overflow-clip px-1 lg:px-48 py-8 lg:py-20 gap-10 flex flex-col items-center justify-center">
         <img
           className="absolute  w-[800px] top-[-0rem] right-[-3rem] "
@@ -11,9 +8,9 @@ const Newsletter = () => {
         />
 
         <div className="flex flex-col px-5 lg:flex-row items-center justify-center gap-8">
-          <form className="flex flex-col items-center  max-w-[600px] w-full">
-            <div className="mb-14 text-center mt-8">
-              <p className=" text-4xl text-center font-bold inline border-b-4 border-black text-white z-10">
+          <form className="flex flex-col items-center  max-w-[600px] w-full md:z-40">
+            <div className="mb-14 text-center mt-14 md:z-40">
+              <p className=" text-4xl text-center font-bold  inline border-b-4 border-black text-white z-10">
                 Contact
               </p>
             </div>

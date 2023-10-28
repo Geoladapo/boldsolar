@@ -4,17 +4,14 @@ import NavBar from './NavBar';
 
 const HeroSection = () => {
   return (
-    <main
-      id="Hero"
-      className="relative overflow-clip md:h-full h-screen bg-green-400"
-    >
+    <main id="Hero" className="relative overflow-clip md:h-full bg-green-400">
       <img
-        className="absolute   w-[400px] h-[400px] z-0 top-[-05rem] right-[-13rem] rounded-full "
+        className="absolute w-[400px] h-[400px] z-0 top-[-05rem] right-[-13rem] rounded-full "
         src="https://res.cloudinary.com/dutvrzezk/image/upload/v1698445480/gg_idyrlu.png"
       />
       <NavBar />
-      <div className="flex flex-col md:gap-20  gap-12 ">
-        <div className="flex flex-col md:flex-row mt-10 md:ml-4">
+      <div className="flex flex-col md:gap-20 gap-12 ">
+        <div className="flex flex-col md:flex-row  md:ml-4">
           <motion.div
             initial={{ opacity: 0, y: 200 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -36,7 +33,7 @@ const HeroSection = () => {
               <button className="bg-[#69E6A6] text-[#0A2640] py-3 md:py-4  px-8 md:px-14 font-bold text-md md:text-xl rounded-full">
                 InfluxSolarInc
               </button>
-              <a href='#Contact'>
+              <a href="#Contact">
                 <button
                   className="bg-[#0A2640] text-white md:border-2 border-[1px] border-white py-3 md:py-4  px-8 md:px-14 font-bold text-md md:text-xl rounded-full
                          hover:text-[#0A2640] hover:bg-white duration-300 ease-linear"
@@ -55,8 +52,8 @@ const HeroSection = () => {
           </motion.div>
         </div>
         <div className="relative w-full">
-          <div className=" bg-gradient-to-r  from-[#0A2640]  z-20 h-16  w-[12rem] absolute top-16 left-[10%] " />
-          <div className=" bg-gradient-to-l  from-[#0A2640]  z-20 h-16  w-[12rem] absolute top-16 right-[10%] " />
+          <div className=" bg-gradient-to-r  from-[#69E6A6]  z-20 h-16  w-[12rem] absolute top-16 left-[10%] " />
+          <div className=" bg-gradient-to-l  from-[#69E6A6]  z-20 h-16  w-[12rem] absolute top-16 right-[10%] " />
           <div className="relative cursor-pointer flex gap-5 md:gap-10 w-[80%]  justify-center overflow-x-scroll scrollbar-hide items-center mx-auto py-20">
             <img
               className="w-28 md:w-[146.51px]"
